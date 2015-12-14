@@ -1,0 +1,4 @@
+sum:
+    path:     /sum/{a}/{b}
+    defaults: { _controller: AppBundle:Math:sum, a:0,b:0 }
+    requirements: {a:\d+,b:\d+}
